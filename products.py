@@ -13,3 +13,6 @@ while True:
 print(products)
 
 print(products[0][0])
+#用for loop存取清單
+for p in products:
+	print(p[0], '的價格是', p[1])
